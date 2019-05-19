@@ -1,71 +1,66 @@
+
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>CodersLab</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<!-- HEADER Z MENU -->
-<header class="black_background">
-  <div class="main-width">
-    <h2 class="logo">Sit <span class="greentext">on</span> chair</h2>
+<header>
+  <div class="main_width">
+    <p class="logo">Sit <span class="greentext">on</span> chair</p>
     <ul>
-      <li><a href="">O firmie</a></li>
+      <li><a href="">O firmie</a>
+        <!--<ul class="dropdown">
+          <li>Aktualności</li>
+          <li>Nasz team</li>
+          <li>Historia</li>
+        </ul>-->
+      </li>
       <li><a href="">Galeria</a></li>
       <li><a href="">Kontakt</a></li>
     </ul>
   </div>
 </header>
-
-<!-- SLIDER "SIT ON OUR CHAIR" -->
-<section class="grey_background">
-<div class="main-width">
-  <!--<article class="post">-->
-    <div class="post__image"></div>
-    <div class="post__content">
+<section class="post">
+  <article class="main_width">
+    <div class="post_image"></div>
+    <div class="post_content">
       <h1>Sit <span class="greentext">on</span> our <span class="greentext">chair</span></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dolore! Veritatis facilis reiciendis
-        deleniti sunt fuga, quae accusantium voluptas atque suscipit saepe perferendis. Cupiditate qui recusandae
-        possimus obcaecati officiis necessitatibus?suscipit saepe perferendis. Cupiditate qui recusandae possimus
-        obcaecati officiis necessitatibus? </p>
+      <p>Lorem ipsum dolor sit amet enim.Etiam ullamcorper.Suspendisse a pellentesque dui,non felis.Maecenas malesuada elit lectus felis,maleusada ulticies.Carabitur et liguala.Ut molestie a,ulticies porta urna.</p>
       <button>Zobacz więcej</button>
     </div>
-  <!--</article>-->
-</div>
+  </article>
 </section>
-<!-- ARTYKUŁY -->
-<section class="white_background">
-  <div class="main-width">
-    <div class="small_box1">
-      <div class="opacity_box">
-        <p>Chair CLAIR</p>
-        <span class="green_underline"></span>
-      </div>
-    </div>
-    <div class="small_box2">
-      <div class="opacity_box">
-        <p>Chair CLAIR</p>
-        <span class="green_underline"></span>
-      </div>
-    </div>
-    <div class="medium_box">
-      <h2>Finds all inputs</h2>
+<section class="main_width content">
+  <div class="small-box1">
+    <div class="opacity_box">
+      <p>Chair CLAIR</p>
       <span class="green_underline"></span>
-      <p>Lorizzle that's the shizzle dolizzle pot amizzle, we gonna chung adipiscing elit. Dizzle sapizzle velit, funky
-        fresh volutpizzle, suscipizzle quizzle, gravida vizzle, own yo'.</p>
-      <p>Lorizzle that's the shizzle dolizzle pot amizzle, we gonna chung adipiscing elit.</p>
     </div>
   </div>
+  <div class="small-box2">
+    <div class="opacity_box">
+      <p>Chair MARGARITA</p>
+      <span class="green_underline"></span>
+    </div>
+  </div>
+  <div class="medium-box">
+    <h3>Finds All Intputs</h3>
+    <span class="green_underline"></span>
+    <p>Finds all inputs that are not chected and highlights the next sibling span.notice there is no change when clicking the checkboxes since no click events have been linked.</p>
+    <p>Notice there is no change when clicking the checkboxes since no click events have been.</p>
+  </div>
 </section>
-
-<!-- CENNIK -->
-<section class="grey_background">
-
-  <div class="main-width">
-
-    <!-- element z ceną 1-->
+<section class="cennik">
+  <div class="main_width">
+    <h2>Cennik</h2>
+    <span class="green_underline"></span>
+  </div>
+</section>
+<section class="grey-background">
+  <div class="main_width">
     <div class="big_box">
       <div class="big_circle">
         <div class="small_circle"></div>
@@ -80,8 +75,6 @@
       </ul>
       <button>Dołącz</button>
     </div>
-
-    <!-- element z ceną 2-->
     <div class="big_box">
       <div class="big_circle">
         <div class="small_circle"></div>
@@ -97,8 +90,6 @@
       </ul>
       <button>Dołącz</button>
     </div>
-
-    <!-- element z ceną 3-->
     <div class="big_box">
       <div class="big_circle">
         <div class="small_circle"></div>
@@ -117,37 +108,49 @@
     </div>
   </div>
 </section>
-
+  <!--
+<section class="contact">
+  <div class="main_width">
+    <h2>Kontakt</h2>
+    <span class="green_underline"></span>
+  </div>
+</section> section like a solution-->
 <!-- FORMA -->
-<section class="white_background">
-  <div class="main-width"
-  <h2>Kontakt</h2>
-  <span class="green_underline"></span>
-  <form>
-    <div>
-      <input type="text" placeholder="Imię">
-      <input type="email" placeholder="email">
-      <textarea placeholder="Wiadomość"></textarea>
+<section class="main_width">
+  <form class="formular">
+    <div class="form1">
+      <h3>KONTAKT</h3>
+      <span class="green_underline"></span>
+      <input type="text" placeholder="Imie">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Wiadomoszc"></textarea>
     </div>
-    <div>
-      <div></div> <!-- tu będzie obrazek (background: url())-->
+    <div class="form2">
+      <div class="form_image"></div> <!-- tu będzie obrazek (background: url())-->
       <label>
         <input type="checkbox">
-        <p>zgadzam sie na przetwarzanie danych osobowych</p>
+        <p>Zgadzam sie na przetwarzanie<br> danych osobowych</p>
       </label>
       <input type="submit">
     </div>
-
   </form>
-  </div>
 </section>
-
-<!-- FOOTER -->
-<footer class="main-width">
+<footer class="main_width footer">
   <p>Copyright 2014 | All Rights Reserved. - Sit On Chair</p>
-  <!-- tu pewnie będą favicony -->
-  <p>Sit <span>On</span> Chair</p>
+    <div class="faviconi">
+      <a href="https://www.flickr.com/"><span class="fr"></span></a>
+      <a href="https://www.vimeo.com/"><span class="vimeo"></span></a>
+      <a href="https://www.pinterest.com/"><span class="pinterest"></span></a>
+      <a href="https://www.twitter.com/"><span class="twitter"></span></a>
+    </div>
+  <p>Sit <span class="greentext">On</span> Chair</p>
 </footer>
-
 </body>
 </html>
+
+
+
+
+
+
+
