@@ -42,7 +42,7 @@ ul li a {
     font-weight: 600;
 }
 .greentext {
-    color: #24B99E;
+    color: #27c7ab;
 }
 .post {
     height: 500px;
@@ -78,7 +78,7 @@ ul li a {
 .post_content button {
     width: 250px;
     height: 50px;
-    background-color: #24B99E;
+    background-color: #27c7ab;
     color: white;
     text-transform: uppercase;
     font-size: 20px;
@@ -127,7 +127,7 @@ ul li a {
 .small-box1 .green_underline,.small-box2 .green_underline {
     height: 5px;
     width: 130px;
-    background-color: #24B99E;
+    background-color: #27c7ab;
     position: absolute;
     left: 15px;
 }
@@ -142,7 +142,7 @@ ul li a {
 .medium-box .green_underline {
     height: 5px;
     width: 140px;
-    background-color: #24B99E;
+    background-color: #27c7ab;
     position: absolute;
 }
 .cennik {
@@ -153,7 +153,7 @@ ul li a {
 .cennik .main_width .green_underline {
     width: 320px;
     height: 5px;
-    color: #24B99E;
+    color: #27c7ab;
     display : block;
 }
 .cennik .main_width h2 {
@@ -184,10 +184,13 @@ ul li a {
     border-radius: 50%;
     border: 1px solid #C1C1C1;
     background-color: #F8F8F8;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
+    position: absolute;
+    left: 140px;
+    top: -35px;
 }
 .small_circle {
     height: 20px;
@@ -198,10 +201,11 @@ ul li a {
 }
 .big_box h3 {
     font-size: 20px;
-    color: #24B99E;
+    color: #27c7ab;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
+    margin-top: 60px;
 }
 .big_box .price_circle {
     width: 130px;
@@ -251,7 +255,7 @@ ul li a {
     width: 120px;
     height: 35px;
     display: block;
-    background-color: #24B99E;
+    background-color: #27c7ab;
     color: white;
     text-transform: uppercase;
     font-size: 15px;
@@ -279,7 +283,7 @@ ul li a {
 .form1 :nth-child(2) {
     height: 5px;
     width: 320px;
-    background-color: #24B99E;
+    background-color: #27c7ab;
 }
 .form1 {
     display: flex;
@@ -289,19 +293,19 @@ ul li a {
 .form1 :nth-child(3) {
     width: 630px;
     height: 65px;
-    border: 1px solid #24B99E;
+    border: 1px solid #27c7ab;
     margin-top: 50px;
 }
 .form1 :nth-child(4) {
     width: 630px;
     height: 65px;
-    border: 1px solid #24B99E;
+    border: 1px solid #27c7ab;
     margin-top: 25px;
 }
 .form1 :nth-child(5) {
     width: 630px;
     height: 190px;
-    border: 1px solid #24B99E;
+    border: 1px solid #27c7ab;
     resize: none;
     margin-top: 25px;
 }
@@ -327,9 +331,29 @@ ul li a {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    border:1px solid #24B99E;
+    border:1px solid #27c7ab;
     background-color: white;
 }
+
+/*.form2 label input {*/
+    /*display: block;*/
+    /*opacity: 0;*/
+    /*height: 48px;*/
+    /*position: absolute;*/
+    /*width: 48px;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.form2 label {*/
+    /*display: block;*/
+    /*padding-left: 65px;*/
+    /*position: relative;*/
+    /*font-size: 28px;*/
+    /*color: #cecece;*/
+    /*line-height: 120%;*/
+    /*padding-top: 10px;*/
+    /*cursor: pointer;*/
+/*}*/
 .form2 label p {
     font-size: 20px;
     color: #cac9d1;
@@ -339,7 +363,7 @@ ul li a {
 .form2 > input[type="submit"] {
     width: 340px;
     height: 70px;
-    background-color: #24B99E;
+    background-color: #27c7ab;
     color: white;
     text-transform: uppercase;
     font-size: 20px;
